@@ -1,0 +1,4 @@
+interface:
+  display_name: "BSL Unit Test"
+  short_description: "Create and repair YAxUnit tests for BSL"
+  default_prompt: "Use $bsl-unit-test to create, extend, or debug YAxUnit tests for this BSL method or module."
