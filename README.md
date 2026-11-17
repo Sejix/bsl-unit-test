@@ -1,4 +1,4 @@
-# Тесты YAxUnit для 1С
+# Навык для написания тестов YAxUnit в 1С
 
 `bsl-unit-test` — навык для помощников с поддержкой [Agent Skills](https://agentskills.io/).
 Он помогает создавать, проверять и исправлять тесты BSL на YAxUnit:
