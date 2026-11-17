@@ -16,16 +16,16 @@
   xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef"
   xmlns:xr="http://v8.1c.ru/8.3/xcf/readable"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="{{XML_VERSION}}">
 	<CommonModule uuid="{{UUID}}">
 		<Properties>
 			<Name>{{TEST_MODULE_NAME}}</Name>
 			<Comment/>
 			<Global>false</Global>
-			<ClientManagedApplication>false</ClientManagedApplication>
-			<Server>true</Server>
+			<ClientManagedApplication>{{CLIENT_MANAGED_APPLICATION}}</ClientManagedApplication>
+			<Server>{{SERVER}}</Server>
 			<ExternalConnection>false</ExternalConnection>
-			<ClientOrdinaryApplication>false</ClientOrdinaryApplication>
+			<ClientOrdinaryApplication>{{CLIENT_ORDINARY_APPLICATION}}</ClientOrdinaryApplication>
 			<ServerCall>false</ServerCall>
 			<Privileged>false</Privileged>
 			<ReturnValuesReuse>DontUse</ReturnValuesReuse>
