@@ -1,4 +1,4 @@
 interface:
   display_name: "Тесты YAxUnit"
-  short_description: "Создание, проверка и исправление тестов BSL на YAxUnit"
+  short_description: "Тесты BSL, описания методов и собственные тесты YAxUnit"
   default_prompt: "Используй $bsl-unit-test, чтобы создать или исправить тесты YAxUnit для указанного метода BSL."
